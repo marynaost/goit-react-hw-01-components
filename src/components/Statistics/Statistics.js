@@ -1,13 +1,7 @@
 import PropTypes from 'prop-types';
 import StatisticsItem from './StatisticsItem';
+import onGetRandomColor from 'helpers/onGetRandomColor';
 import styles from './StatisticsItem.module.css';
-
-function onGetRandomColor() {
-  const r = Math.floor(Math.random() * 256);
-  const b = Math.floor(Math.random() * 256);
-  const g = Math.floor(Math.random() * 256);
-  return `rgb(${r}, ${g}, ${b})`;
-}
 
 function Statistics({ title, stats }) {
   return (
