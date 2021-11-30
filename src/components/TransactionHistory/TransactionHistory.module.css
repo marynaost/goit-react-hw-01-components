@@ -1,0 +1,28 @@
+.container {
+  margin: 20px 0;
+  width: 296px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgb(148, 198, 218);
+  background-color: rgb(180, 222, 238);
+}
+
+.thead {
+  height: 40px;
+  background-color: rgb(54, 179, 141);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.line {
+  font-size: 14px;
+  height: 30px;
+  text-align: center;
+  background-color: #fff;
+  color: rgb(80, 78, 78);
+}
+
+.line:nth-child(even) {
+  background-color: rgb(230, 223, 223);
+}

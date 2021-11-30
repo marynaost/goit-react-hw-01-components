@@ -1,0 +1,10 @@
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.avatar {
+  margin: 0 10px;
+}
